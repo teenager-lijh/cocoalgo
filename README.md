@@ -19,7 +19,7 @@ permalink: /
 - [计算机网络](/计算机网络)
 - [力扣刷题](/力扣刷题)
 - [分布式系统](/分布式系统)
-- [Pythoner](/pythoner)
+- [Pythoner](/Pythoner)
 
 
 ## [蓝莓随便扯](/蓝莓随便扯)
