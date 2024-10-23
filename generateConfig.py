@@ -76,10 +76,10 @@ def create_sidebar_files(root_dir, config_list):
 def generate_sidebar_ts(root_dir, imports, routes):
     ts_content = """import { SidebarConfig4Multiple } from "vuepress/config";
 
-""" + "\n".join(imports) + "\n" + """
+""" + ";\n".join(imports) + ";\n" + """
 // @ts-ignore
 export default {
-""" + ",\n".join(routes) + """
+""" + ",\n".join(routes) + ",\n" + """
     "/": "auto",
 } as SidebarConfig4Multiple;
 """
@@ -95,7 +95,7 @@ def generate_navbar(root_dir, config_list):
     for entry in config_list:
         navbar_items.append(f"""
     {{
-        text: "{entry['subdirectory']}", 
+        text: "{entry['subdirectory']}",
         link: '/{entry['subdirectory']}/'
     }}""")
     
