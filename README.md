@@ -46,6 +46,7 @@ permalink: /
 
 **Java 编程**
 
+- 《Head First Java》新手入门
 - 《Java 核心技术 卷1 基础知识》新手入门
 - 《Java8 实战》 Java8 的新特性讲的最全最仔细的
 - 《Effective Java》 大量的 Java 编程时间 Java 之父推荐
@@ -53,7 +54,6 @@ permalink: /
 
 
 **虚拟机**
-
 
 - 《深入理解 Java 虚拟机》 进阶
 
@@ -101,10 +101,7 @@ permalink: /
 **个人修养**
 
 - 《重构：改善既有代码的设计》
-
-
 - 《代码整洁之道》
-
 - 《程序员的职业素养》
 
 
