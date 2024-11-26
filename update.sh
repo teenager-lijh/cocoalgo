@@ -53,17 +53,19 @@ else
     git switch main 
     echo "4. fix markdown"
     python3 fixMarkdown.py $1
-    echo "5. generateConfig"
+    echo "5. generatePermalink"
+    python3 generatePermalink.py $1
+    echo "6. generateConfig"
     python3 generateConfig.py $1 
-    echo "6. build dist"
+    echo "7. build dist"
     npm run docs:build
-    echo "7. resize image files"
+    echo "8. resize image files"
     python3 resizeImageFiles.py $1 
     if [ $? -ne 0 ]; then
         echo "文档构建失败。"
         exit 1
     fi
-    echo "1 -> 7 OK!"
+    echo "1 -> 8 OK!"
 fi
 
 echo "脚本执行完毕。"
