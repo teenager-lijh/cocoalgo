@@ -16,13 +16,13 @@ permalink: /
 
 ## 本站内容
 
-- [蓝莓随便扯](/蓝莓随便扯)
-- [操作系统](/操作系统)
-- [计算机网络](/计算机网络)
-- [力扣刷题](/力扣刷题)
-- [分布式系统](/分布式系统)
-- [Pythoner](/Pythoner)
-- [Java](/Java)
+- [蓝莓随便扯](/蓝莓随便扯/README.md)
+- [操作系统](/操作系统/README.md)
+- [计算机网络](/计算机网络/README.md)
+- [力扣刷题](/力扣刷题/README.md)
+- [分布式系统](/分布式系统/README.md)
+- [Pythoner](/Pythoner/README.md)
+- [Java](/Java/README.md)
 
 ## 优秀博客推荐
 
