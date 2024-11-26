@@ -29,6 +29,7 @@ def generate_sidebar_content(title, markdown_files):
     # 按照题目的格式生成 sidebar 文件内容
     children_entries = [f'"{md}"' for md in markdown_files]
     children_str = ',\n        '.join(children_entries)
+    
     sidebar_template = f"""
 export default [
     "",
@@ -96,7 +97,7 @@ def generate_navbar(root_dir, config_list):
         navbar_items.append(f"""
     {{
         text: "{entry['subdirectory']}",
-        link: '/{entry['subdirectory']}/'
+        link: '/{entry['alias'].replace('SideBar.ts', '').strip()}/index.html'
     }}""")
     
     # 格式化 navbar.ts 文件的内容
