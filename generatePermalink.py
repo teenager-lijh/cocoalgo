@@ -23,7 +23,7 @@ def process_folder(folder_path, prefix):
             elif file.endswith('.md'):
                 print(f'Processing file: {file_path}')
                 timestamp = file_path.split('/')[-2]
-                generate_file_permalink(file_path, f'/{prefix}/{timestamp}/index.html')
+                generate_file_permalink(file_path, f'/{timestamp}/index.html')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate permalink in markdown files.')
