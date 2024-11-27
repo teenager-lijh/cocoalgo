@@ -61,11 +61,13 @@ else
     npm run docs:build
     echo "8. resize image files"
     python3 resizeImageFiles.py $1 
+    echo "9. checkout files which are modified"
+    git checkout .
     if [ $? -ne 0 ]; then
         echo "文档构建失败。"
         exit 1
     fi
-    echo "1 -> 8 OK!"
+    echo "1 -> 9 OK!"
 fi
 
 echo "脚本执行完毕。"
