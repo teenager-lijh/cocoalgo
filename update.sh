@@ -73,7 +73,7 @@ else
         echo "文档构建失败。"
         exit 1
     fi
-    echo "1 -> 9 OK!"
+    echo "OK!"
 fi
 
 echo "脚本执行完毕。"
