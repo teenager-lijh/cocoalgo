@@ -23,6 +23,7 @@ permalink: /
 - [分布式系统](/分布式系统/README.md)
 - [Pythoner](/Pythoner/README.md)
 - [Java](/Java/README.md)
+- [Golang](/Golang/README.md)
 
 ## 优秀博客推荐
 
