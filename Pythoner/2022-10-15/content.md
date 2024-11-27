@@ -1,4 +1,4 @@
-# Python 天生支持多态
+## Python 天生支持多态
 
 哈喽 ~ 
 
@@ -57,7 +57,7 @@ blueberry = Blueberry()
 blueberry.say()
 ```
 
-![image-20221015091235341](./content.assets/image-20221015091235341.png)
+![image-20221015091235341](content.assets/image-20221015091235341.png)
 
 
 
@@ -73,7 +73,7 @@ blue_verse = BlueVerse()
 blue_verse.say()
 ```
 
-![](./content.assets/image-20221015091523700.png)
+![](content.assets/image-20221015091523700.png)
 
 
 
@@ -115,7 +115,7 @@ for member in members:
     obj.say()
 ```
 
-![](./content.assets/image-20221015094038237.png)
+![](content.assets/image-20221015094038237.png)
 
 
 
