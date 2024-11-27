@@ -50,7 +50,7 @@ permalink: /
 - 《Head First Java》新手入门
 - 《Java 核心技术 卷1 基础知识》新手入门
 - 《Java8 实战》 Java8 的新特性讲的最全最仔细的
-- 《Effective Java》 大量的 Java 编程时间 Java 之父推荐
+- 《Effective Java》 大量的 Java 编程实践 Java 之父推荐
 
 
 

@@ -45,24 +45,30 @@ else
 
     # 拉取成功后，执行 npm run docs:build 命令
     echo "代码拉取成功，开始构建文档..."
-    echo "1. clean files in git workspace"
-    git clean -fd
-    echo "2. checkout files which are modified"
-    git checkout .
-    echo "3. switch to main"
+    echo "switch to main"
     git switch main 
-    echo "4. fix markdown"
+    
+    echo "fix markdown"
     python3 fixMarkdown.py $1
-    echo "5. generatePermalink"
+    
+    echo "generatePermalink"
     python3 generatePermalink.py $1
-    echo "6. generateConfig"
+    
+    echo "generateConfig"
     python3 generateConfig.py $1 
-    echo "7. build dist"
+    
+    echo "build dist"
     npm run docs:build
-    echo "8. resize image files"
+    
+    echo "resize image files"
     python3 resizeImageFiles.py $1 
-    echo "9. checkout files which are modified"
+    
+    echo "checkout files which are modified"
     git checkout .
+    
+    echo "clean files in git workspace"
+    git clean -fd
+    
     if [ $? -ne 0 ]; then
         echo "文档构建失败。"
         exit 1
