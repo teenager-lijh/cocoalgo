@@ -4,7 +4,7 @@
 
 **题目清单**：[一起刷力扣](https://blueberry-universe.cn/lc/index.html)
 
-**引用力扣题目**：[189 轮转数组](https://leetcode.cn/problems/rotate-array/description/?envType=study-plan-v2&envId=top-interview-150)
+**引用力扣题目**：[3 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/)
 
 
 
