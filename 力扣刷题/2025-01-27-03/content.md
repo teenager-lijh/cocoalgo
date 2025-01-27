@@ -20,7 +20,7 @@
 
 **示例1：**
 
-![img](https://pic.leetcode-cn.com/1626420025-fZfzMX-image.png)
+![img](content.assets/1626420025-fZfzMX-image.png)
 
 ```
 输入：l1 = [7,2,4,3], l2 = [5,6,4]
